@@ -91,10 +91,10 @@ const LogIn=()=>{
     </form>
     
     {
-        checkE &&  <p id="user-error" style={{color:"red"}}>{checkE}</p>
+      <p id="user-error" style={{color:"red"}}>{checkE}</p>
     }
 
-      {  checkP  && <p id="password-error" style={{color:"red"}}>{checkP}</p>  }
+      {  <p id="password-error" style={{color:"red"}}>{checkP}</p>  }
 
 
     
